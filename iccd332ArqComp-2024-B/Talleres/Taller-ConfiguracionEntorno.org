@@ -202,13 +202,13 @@ generar una nueva fila escriba presione la tecla TAB
 |                   |                             |           |                                   |
 |                   |                             |           |                                   |
 
-<Estudiante D>
+<Ariel Montufar>
 #+ATTR_LATEX: :environment longtable :align |p{0.2\linewidth}|p{0.3\linewidth}|p{0.2\linewidth}|p{0.3\linewidth}|
-| *Comando*         | *Descripción*               | *Comando* | *Descripción*                     |
-|-------------------+-----------------------------+-----------+-----------------------------------|
-| ~C-c C-e # latex~ | Insertar template de  latex | ~C-x C-s~ | Guardar los cambios en el archivo |
-|                   |                             |           |                                   |
-|                   |                             |           |                                   |
+| *Comando* | *Descripción*                       | *Comando* | *Descripción*                            |
+|-----------+-------------------------------------+-----------+------------------------------------------|
+| ~C-e~     | Te transporta al final de una linea | ~M-e~     | Te lleva al final de un párrafo          |
+| ~C-f~     | Te adelanta un carácter             | ~C-/~     | Deshace el ultimo cambio realizado       |
+| ~C-p~     | Te mueve hacia la linea de arriba   | ~C-x-1~   | Elimina las ventanas que no están en uso |
 ** Comandos Emacs Juego
 En la anterior sección usted revisó los comandos de mayor interés
 sobre la manipulación de Emacs. Es hora de poner en práctica sus
@@ -256,18 +256,21 @@ Estudiante C:
 [[./estudianteC-game.png]]
 #+end_src
 
-Estudiante D: 
+Ariel Montufar: 
 |-----------+---------|
 | iteración | Puntaje |
 |-----------+---------|
-|         1 |         |
-|         2 |         |
-|         3 |         |
+|         1 |   115   |
+|         2 |   140   |
+|         3 |   140   |
 |-----------+---------|
 
-#+begin_src org
-[[./estudianteD-game.png]]
-#+end_src
+
+
+[[./ImagesAriel/MontufarAriel-game1.jpeg]]
+[[./ImagesAriel/MontufarAriel-game2.jpeg]]
+[[./ImagesAriel/MontufarAriel-game3.jpeg]]
+
 ** Usando Emacs para tener Ayuda sobre Emacs
 ¿Qué comandos le resultan más fáciles de usar y cuáles le son más
 extraños? Identifique 4 comandos que le sean fáciles y 4 que le
@@ -292,13 +295,14 @@ Para consultar lo que hace un comando ejecute:
 1. **Estudiante A:** <Poner el comando>. <Pegar lo que dice el primer párrafo de la ayuda>
 2. **Estudiante B:** <Poner el comando>. <Pegar lo que dice el primer párrafo de la ayuda>
 3. 
-4. 
-
+4. **Ariel Montufar:** <M-e>. <M-e runs the command org-forward-sentence (found in org-mode-map),
+which is an interactive native-compiled Lisp function in>
 **Comandos Difíciles**
 1. **Estudiante A:** <Poner el comando>. <Pegar lo que dice el primer párrafo de la ayuda>
 2. **Estudiante B:** <Poner el comando>. <Pegar lo que dice el primer párrafo de la ayuda>
 3.
-
+4. **Ariel Montufar:** <C-x-b>. C-x b runs the command switch-to-buffer (found in global-map), which
+is an interactive native-compiled Lisp function in  
 * Equipo de Trabajo
 Complete la información de los integrantes de grupo e indique el líder
 de grupo.
